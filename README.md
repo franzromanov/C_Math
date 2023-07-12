@@ -1,7 +1,7 @@
 # C_Math
 Diy c based mathematic libraries
 
-<u>ompiling example:<u\>
+<u>ompiling example:</u>
 > cc -c -g C_Math.c  
   
 > cc -c -g main.c  
