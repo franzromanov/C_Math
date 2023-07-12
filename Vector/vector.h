@@ -10,3 +10,6 @@ Vector Vsub(Vector v1,Vector v2);
 
 //dot_product
 int dot(Vector v1,Vector v2);
+
+//vector_print
+void Vectorcat(Vector res);
