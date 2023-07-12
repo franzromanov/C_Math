@@ -7,6 +7,6 @@ int main(){
 //code_here
 result=Vadd(P,Q);
 printf("the result is: ");
-VectorCat(result);
+Vectorcat(result);
 return 0;  
 }
