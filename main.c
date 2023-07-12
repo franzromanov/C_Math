@@ -6,7 +6,7 @@ Vector result;
 int main(){
 //code_here
 result=Vadd(P,Q);
-printf("the result is:");
+printf("the result is: ");
 VectorCat(result);
 return 0;  
 }
