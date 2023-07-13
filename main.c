@@ -25,7 +25,7 @@ Vectorcat(result);
 
 //process&output
 bag=dot(P,Q);
-printf("[dot product] the result is: %d",bag\n);
+printf("[dot product] the result is: %d\n",bag);
 //////////////////////////////////////////
 
 //initialize::Rational_Number
@@ -43,12 +43,14 @@ printf("[subtraction] the result is: ");
 Rout(drop);
 
 //rpocess&output
-drop=R_incr(&a);
+R_incr(&a);
+drop=a;
 printf("[increment] the result is: ");
 Rout(drop);
 
 //rpocess&output
-drop=R_dcr(&b);
+R_dcr(&b);
+drop=b;
 printf("[decrement] the result is: ");
 Rout(drop);
 
