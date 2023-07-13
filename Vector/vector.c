@@ -34,6 +34,6 @@ printf("[%d,%d,%d]\n",res.x,res.y,res.z);
 Vector Vstream(){ 
 Vector drop;
 printf("Input Elements,ex:[1,2,3] >>>");
-scanf("[%d,%d,%d]",&drop.x,&drop.y,&drop.z);
+scanf(" [%d,%d,%d]",&drop.x,&drop.y,&drop.z);
 return drop;
 }
