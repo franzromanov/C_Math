@@ -32,6 +32,7 @@ case 1:
         break;
 case 0:
         res.num=rat1.num-rat2.num;
+        res.denum=rat1.denum;
         break;
 }
 
@@ -59,6 +60,7 @@ case 1:
         break;
 case 0:
         res.num=rat1.num-rat2.num;
+        res.denum=rat1.denum;
         break;
 }
 return res;
