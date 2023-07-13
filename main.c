@@ -24,9 +24,8 @@ printf("[subtraction] the result is: ");
 Vectorcat(result);
 
 //process&output
-result=dot(P,Q);
-printf("[dot product] the result is: ");
-Vectorcat(result);
+bag=dot(P,Q);
+printf("[dot product] the result is: %d",bag\n);
 //////////////////////////////////////////
 
 //initialize::Rational_Number
@@ -34,29 +33,28 @@ a=Rcat();
 b=Rcat();
 
 //rpocess&output
-drop=Radd(a,b);
+drop=R_add(a,b);
 printf("[addition] the result is: ");
 Rout(drop);
 
 //rpocess&output
-drop=Rsub(a,b);
+drop=R_sub(a,b);
 printf("[subtraction] the result is: ");
 Rout(drop);
 
 //rpocess&output
-drop=R_incr(a);
+drop=R_incr(&a);
 printf("[increment] the result is: ");
 Rout(drop);
 
 //rpocess&output
-drop=R_dcr(b);
+drop=R_dcr(&b);
 printf("[decrement] the result is: ");
 Rout(drop);
 
 //rpocess&output
 bag=R_comp(a,b);
-printf("[comparison] the result is: ");
-printf("%d\n",bag);
+printf("[comparison] the result is: %d\n",bag);
 
 return 0;
 }
