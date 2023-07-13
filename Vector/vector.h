@@ -1,6 +1,6 @@
 #include <stdio.h>
 //struct_def
-typedef struct Dvector{int x;int y;int z;}Vector;
+typedef struct vector{int x;int y;int z;}Vector;
 
 //vector_adder
 Vector Vadd(Vector v1, Vector v2);
@@ -13,3 +13,6 @@ int dot(Vector v1,Vector v2);
 
 //vector_print
 void Vectorcat(Vector res);
+
+//vector_stream
+Vector Vstream();
